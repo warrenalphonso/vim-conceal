@@ -1,6 +1,11 @@
 " Original file is https://github.com/wjakob/wjakob.vim/blob/master/after/syntax/tex.vim
 
 if has('conceal')
+    	:syntax match MathSymbols '\\Rightarrow\>' conceal cchar=√
+	:syntax match MathSymbols /\V&sup2;/ conceal cchar=²
+	:syntax match MathSymbols /\V&sum;/ conceal cchar=∑
+	:set conceallevel=1
+
   " More paper specific (what to do with these??)
   syn match texMathSymbol '\\pathspace' contained conceal cchar=Ω
   syn match texMathSymbol '\\surfaces' contained conceal cchar=𝓜
