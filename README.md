@@ -1,3 +1,5 @@
+Trying to make Vim conceal, but want to use its features on all filetypes so it works on Markdown with MathJax
+
 # tex-conceal.vim
 
 This plugin extends the Conceal feature of Vim for LaTeX.
